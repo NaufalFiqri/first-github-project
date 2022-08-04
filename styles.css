@@ -35,6 +35,15 @@ a :visited{
     border: none;
 }
 
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+
 .box-1{
     border: 5px red solid;
     background-color: black;
@@ -102,3 +111,24 @@ a :visited{
     width: 100%;
 }
 
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
